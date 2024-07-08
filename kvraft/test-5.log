@@ -1,0 +1,97 @@
+=== RUN   TestBasic3A
+Test: one client (3A) ...
+  ... Passed --  15.1  5  8402 1236
+--- PASS: TestBasic3A (15.08s)
+=== RUN   TestSpeed3A
+Test: ops complete fast enough (3A) ...
+  ... Passed --   8.4  3  4670    0
+--- PASS: TestSpeed3A (8.40s)
+=== RUN   TestConcurrent3A
+Test: many clients (3A) ...
+  ... Passed --  15.4  5  8565 1290
+--- PASS: TestConcurrent3A (15.43s)
+=== RUN   TestUnreliable3A
+Test: unreliable net, many clients (3A) ...
+  ... Passed --  16.0  5  8774 1346
+--- PASS: TestUnreliable3A (15.96s)
+=== RUN   TestUnreliableOneKey3A
+Test: concurrent append to same key, unreliable (3A) ...
+  ... Passed --   1.5  3   281   52
+--- PASS: TestUnreliableOneKey3A (1.48s)
+=== RUN   TestOnePartition3A
+Test: progress in majority (3A) ...
+  ... Passed --   0.4  5    45    2
+Test: no progress in minority (3A) ...
+  ... Passed --   1.0  5   105    3
+Test: completion after heal (3A) ...
+  ... Passed --   1.0  5    55    3
+--- PASS: TestOnePartition3A (2.95s)
+=== RUN   TestManyPartitionsOneClient3A
+Test: partitions, one client (3A) ...
+  ... Passed --  22.3  5 11905 1695
+--- PASS: TestManyPartitionsOneClient3A (22.26s)
+=== RUN   TestManyPartitionsManyClients3A
+Test: partitions, many clients (3A) ...
+  ... Passed --  22.7  5 20617 1914
+--- PASS: TestManyPartitionsManyClients3A (22.67s)
+=== RUN   TestPersistOneClient3A
+Test: restarts, one client (3A) ...
+  ... Passed --  20.5  5 19428 1684
+--- PASS: TestPersistOneClient3A (20.46s)
+=== RUN   TestPersistConcurrent3A
+Test: restarts, many clients (3A) ...
+  ... Passed --  21.4  5 35037 1790
+--- PASS: TestPersistConcurrent3A (21.44s)
+=== RUN   TestPersistConcurrentUnreliable3A
+Test: unreliable net, restarts, many clients (3A) ...
+  ... Passed --  21.7  5 10609 1497
+--- PASS: TestPersistConcurrentUnreliable3A (21.65s)
+=== RUN   TestPersistPartition3A
+Test: restarts, partitions, many clients (3A) ...
+  ... Passed --  27.6  5 27820 2192
+--- PASS: TestPersistPartition3A (27.56s)
+=== RUN   TestPersistPartitionUnreliable3A
+Test: unreliable net, restarts, partitions, many clients (3A) ...
+  ... Passed --  27.9  5  7963  931
+--- PASS: TestPersistPartitionUnreliable3A (27.88s)
+=== RUN   TestPersistPartitionUnreliableLinearizable3A
+Test: unreliable net, restarts, partitions, random keys, many clients (3A) ...
+  ... Passed --  30.2  7 20570 1687
+--- PASS: TestPersistPartitionUnreliableLinearizable3A (30.19s)
+=== RUN   TestSnapshotRPC3B
+Test: InstallSnapshot RPC (3B) ...
+  ... Passed --   3.2  3  5612   63
+--- PASS: TestSnapshotRPC3B (3.20s)
+=== RUN   TestSnapshotSize3B
+Test: snapshot size is reasonable (3B) ...
+  ... Passed --   5.5  3  8751  800
+--- PASS: TestSnapshotSize3B (5.46s)
+=== RUN   TestSpeed3B
+Test: ops complete fast enough (3B) ...
+  ... Passed --   5.9  3  5854    0
+--- PASS: TestSpeed3B (5.93s)
+=== RUN   TestSnapshotRecover3B
+Test: restarts, snapshots, one client (3B) ...
+  ... Passed --  20.8  5 23462 2621
+--- PASS: TestSnapshotRecover3B (20.80s)
+=== RUN   TestSnapshotRecoverManyClients3B
+Test: restarts, snapshots, many clients (3B) ...
+  ... Passed --  21.4  5 67943 8236
+--- PASS: TestSnapshotRecoverManyClients3B (21.43s)
+=== RUN   TestSnapshotUnreliable3B
+Test: unreliable net, snapshots, many clients (3B) ...
+  ... Passed --  15.9  5 10539 1635
+--- PASS: TestSnapshotUnreliable3B (15.93s)
+=== RUN   TestSnapshotUnreliableRecover3B
+Test: unreliable net, restarts, snapshots, many clients (3B) ...
+  ... Passed --  21.4  5 11160 1583
+--- PASS: TestSnapshotUnreliableRecover3B (21.41s)
+=== RUN   TestSnapshotUnreliableRecoverConcurrentPartition3B
+Test: unreliable net, restarts, partitions, snapshots, many clients (3B) ...
+  ... Passed --  27.8  5  8730 1140
+--- PASS: TestSnapshotUnreliableRecoverConcurrentPartition3B (27.80s)
+=== RUN   TestSnapshotUnreliableRecoverConcurrentPartitionLinearizable3B
+Test: unreliable net, restarts, partitions, snapshots, random keys, many clients (3B) ...
+  ... Passed --  30.0  7 35507 3646
+--- PASS: TestSnapshotUnreliableRecoverConcurrentPartitionLinearizable3B (30.01s)
+PASS

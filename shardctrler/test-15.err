@@ -1,0 +1,12 @@
+2023/11/08 00:37:34 ===============in check mygrouplen : 0, check group len:0
+2023/11/08 00:37:34 ===============in check mygrouplen : 1, check group len:1
+2023/11/08 00:37:34 ===============in check mygrouplen : 2, check group len:2
+2023/11/08 00:37:34 ===============in check mygrouplen : 1, check group len:1
+2023/11/08 00:37:36 ===================================
+2023/11/08 00:37:36 map[100:[s100b] 110:[s110b] 120:[s120b] 130:[s130b] 140:[s140b] 150:[s150b] 160:[s160b] 170:[s170b] 180:[s180b] 190:[s190b]]
+2023/11/08 00:37:36 ===============in check mygrouplen : 10, check group len:10
+2023/11/08 00:37:36 ===============in check mygrouplen : 0, check group len:0
+2023/11/08 00:37:36 ===============in check mygrouplen : 2, check group len:2
+2023/11/08 00:37:36 ===============in check mygrouplen : 3, check group len:3
+2023/11/08 00:37:36 ===============in check mygrouplen : 1, check group len:1
+2023/11/08 00:37:36 ===============in check mygrouplen : 10, check group len:10
